@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab:ital@0;1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@font-face {
+  font-family: Westiva_reg;
+  src: url(fonts/Westiva\ Regular.ttf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --tone1: #f7ecde;
+  --tone2: #e9dac1;
+  --tone3: #9ed2c6;
+  --tone4: #54bab9;
+  --primary-bg: white;
+  --text-primary: black;
+  /* --tone1: #F7ECDE;
+    --tone2: #E9DAC1;
+    --tone3: #9ED2C6;
+    --tone4: #54BAB9; */
+  --accent-font: Westiva_reg, serif;
+  --heading-font: "Montserrat", sans-serif;
+  --text-font: "Montserrat", sans-serif;
+  transition: 100ms ease;
+}
+.light-body {
+  --tone1: #f7ecde;
+  --tone1_l: #fae6cd;
+  --tone2: #e9dac1;
+  --tone3: #9ed2c6;
+  --tone4: #54bab9;
+  --primary-bg: white;
+  --text-primary: black;
+}
+.dark-body {
+  --tone1: #1f1d36;
+  --tone1_l: rgb(31, 31, 31);
+  --tone2: #3f3351;
+  --tone3: #864879;
+  --tone4: #e9a6a6;
+  /* --tone1: #100F0F;
+  --tone2: #0F3D3E;
+  --tone3: #E2DCC8;
+  --tone4: #F1F1F1; */
+  --primary-bg: rgb(0, 0, 0);
+  --text-primary: rgb(255, 255, 255);
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: var(--primary-bg);
+  font-family: var(--heading-font);
+  color: var(--text-primary);
+  transition: 500ms ease;
+}
+section{
+  min-height: 100vh;
 }

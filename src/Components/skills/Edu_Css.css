@@ -1,0 +1,53 @@
+.Title {
+  font-size: 3rem;
+  font-family: 'Kalam', cursive;
+  margin: 20px 0 20px 0;
+}
+
+#edu-ski {
+  min-height: 100vh;
+  width: 100%;
+  padding: 50px;
+}
+.edu-grid {
+  width: 100%;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.divs div {
+  color: var(--text-primary);
+  box-shadow: 0 0 20px var(--tone2);
+  width: 100%;
+  min-height: 300px;
+  height: 100%;
+  border: 3px solid var(--tone2);
+  border-radius: 10px;
+  background-color: var(--tone1_l);
+  height: fit-content;
+  padding: 20px;
+  border-radius: 2px;
+  transition: 200ms;
+}
+.divs div:hover{
+  border: 0px solid var(--tone3);
+  box-shadow: 0 0 20px var(--tone3);
+  background-color: var(--tone3);
+  transition: 200ms;
+}
+.SkillDiv svg {
+  height: 2rem;
+}
+.Title svg {
+  height: 1.5rem;
+  margin-right: 10px;
+  fill: var(--text-primary);
+}
+.divs div svg {
+  width: 50px;
+  fill: var(--text-primary);
+}
+.divs div h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

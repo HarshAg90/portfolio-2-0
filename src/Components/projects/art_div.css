@@ -1,0 +1,44 @@
+img {
+  height: 200px;
+}
+#art-d {
+  background-color: var(--tone1);
+  box-shadow: 0 0 10px 10px var(--tone1);
+  /* border-bottom: 1px solid black;
+        border-top: 1px solid black; */
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+#art-d .art_img {
+  position: absolute;
+  max-width: 300px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+#art-d .mood {
+  height: 200px;
+  left: 5%;
+  rotate: 10deg;
+}
+#art-d .spider {
+  height: 190px;
+  left: 70%;
+  rotate: 5deg;
+}
+#art-d .cloud_fish {
+  height: 210px;
+  left: 10%;
+  translate: 10px;
+  rotate: -20deg;
+}
+#art-d .wing_man {
+  height: 140px;
+  left: 20%;
+  rotate: 10deg;
+}
+#art-d .wrench {
+  height: 100px;
+  left: 90%;
+  rotate: 10deg;
+}

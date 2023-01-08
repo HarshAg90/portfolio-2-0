@@ -1,0 +1,43 @@
+#particles-js {
+  height: 100vh;
+}
+#home .info_co {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#home .info_co h1,
+#home .info_co h2 {
+  margin: 5px;
+}
+.name {
+  font-family: var(--accent-font);
+  font-size: 5rem;
+  color: var(--tone4);
+  margin: 5px;
+}
+
+#quote-d {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tone1);
+  box-shadow: 0 0 10px 10px var(--tone1);
+  /* border-bottom: 1px solid black;
+      border-top: 1px solid black; */
+  font-size: 1.5rem;
+}
+#theme-btn {
+  position: fixed;
+  border: 4px solid var(--text-primary);
+  top: 90%;
+  left: 90%;
+  z-index: 99;
+  border: none;
+  background: transparent;
+  color: var(--text-primary);
+  fill: currentColor;
+}

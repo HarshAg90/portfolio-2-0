@@ -1,0 +1,25 @@
+#about{
+    padding: 20px 20px 20px 20px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.edu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#about h1{
+    margin-bottom: 20px;
+}
+#about p{
+    text-align: center;
+    font-size: 1.2rem;
+}

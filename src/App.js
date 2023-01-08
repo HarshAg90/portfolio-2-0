@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./Components/home/Home";
+import Nav from "./Components/home/nav";
+import Edu_certi from "./Components/skills/Quali_comp";
+import Projects from "./Components/projects/Projects";
+import About from "./Components/about/About";
 
 function App() {
+
+  function Theme() {
+    document.body.classList.toggle("light-body");
+    document.body.classList.toggle("dark-body");
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="light-body">
+      <Nav />
+      <Home themeFn={Theme} />
+      <About />
+      <Edu_certi />
+      <Projects />
+      <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
     </div>
   );
 }

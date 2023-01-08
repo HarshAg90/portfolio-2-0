@@ -7,6 +7,7 @@ export default function Projects() {
     <section id="proj">
     <h1 className="Title">Projects</h1>
     <div className="majors">
+        <h1>Continuous Lo-Fi Background Music</h1>
         
     </div>
 

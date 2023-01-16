@@ -1,8 +1,4 @@
-.Title {
-  font-size: 3rem;
-  font-family: 'Kalam', cursive;
-  margin: 20px 0 20px 0;
-}
+
 
 #edu-ski {
   min-height: 100vh;
@@ -33,6 +29,8 @@
   border: 0px solid var(--tone3);
   box-shadow: 0 0 20px var(--tone3);
   background-color: var(--tone3);
+  color: white;
+  fill: white;
   transition: 200ms;
 }
 .SkillDiv svg {

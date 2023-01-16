@@ -1,20 +1,19 @@
 #about{
-    padding: 20px 20px 20px 20px;
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    padding: 40px 10vw 40px 10vw;
+    background-color: var(--tone3_1);
 }
 .edu{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
     width: 100%;
     align-items: center;
     margin: 20px 0 20px 0;
     padding: 20px 0 20px 0;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
 }
 #about h1{
     margin-bottom: 20px;

@@ -1,0 +1,42 @@
+#portfolio{
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.exp{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.achievements {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    background-color: var(--tone3_1);
+}
+.exp h1{
+    color: var(--tone4);
+    font-weight: 800;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h2{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.card h1{
+    color: var(--tone4);
+    font-size: 4rem;
+    font-weight: 800;
+    opacity: 1;
+}

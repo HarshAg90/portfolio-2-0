@@ -15,6 +15,7 @@
   --tone2: #e9dac1;
   --tone3: #9ed2c6;
   --tone4: #54bab9;
+  --tone3_1: rgba(158, 210, 198, 0.597);
   --primary-bg: white;
   --text-primary: black;
   /* --tone1: #F7ECDE;
@@ -31,6 +32,7 @@
   --tone1_l: #fae6cd;
   --tone2: #e9dac1;
   --tone3: #9ed2c6;
+  --tone3_1: rgba(158, 210, 198, 0.597);
   --tone4: #54bab9;
   --primary-bg: white;
   --text-primary: black;
@@ -40,6 +42,7 @@
   --tone1_l: rgb(31, 31, 31);
   --tone2: #3f3351;
   --tone3: #864879;
+  --tone3_1: rgba(134, 72, 120, 0.601);
   --tone4: #e9a6a6;
   /* --tone1: #100F0F;
   --tone2: #0F3D3E;
@@ -59,4 +62,14 @@ body {
 }
 section{
   min-height: 100vh;
+}
+h1.title {
+  font-size: 3rem;
+  font-family: 'Kalam', cursive;
+  margin: 10px 0 20px 0 !important;
+}
+h3.title {
+  font-size: 1.3rem;
+  opacity: 0.8;
+  margin: 5px !important;
 }

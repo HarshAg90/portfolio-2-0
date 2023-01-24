@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-2-0/static/css/main.43cbd48b.css",
+    "main.js": "/portfolio-2-0/static/js/main.510b0bc6.js",
+    "static/media/stock_pic_store.png": "/portfolio-2-0/static/media/stock_pic_store.2eb48f45181c5a9233e8.png",
+    "static/media/Westiva Regular.ttf": "/portfolio-2-0/static/media/Westiva Regular.3fcac888eba253bb3b1c.ttf",
+    "static/media/hand_detection.png": "/portfolio-2-0/static/media/hand_detection.35ff4dbbf76380e45682.png",
+    "static/media/Lofi_icon.png": "/portfolio-2-0/static/media/Lofi_icon.75910064d3142e5cfaf5.png",
+    "static/media/screen_saver.png": "/portfolio-2-0/static/media/screen_saver.eb8bbce58e9e824e0b39.png",
+    "static/media/instagram.png": "/portfolio-2-0/static/media/instagram.5e853fbce6d1f4a3c580.png",
+    "static/media/twitter.png": "/portfolio-2-0/static/media/twitter.fab27476e98ab8a49167.png",
+    "static/media/linkedin.png": "/portfolio-2-0/static/media/linkedin.594ef44b37655cbcf7ac.png",
+    "static/media/beatmaker.png": "/portfolio-2-0/static/media/beatmaker.fe0ba24238c063d27f52.png",
+    "index.html": "/portfolio-2-0/index.html",
+    "main.43cbd48b.css.map": "/portfolio-2-0/static/css/main.43cbd48b.css.map",
+    "main.510b0bc6.js.map": "/portfolio-2-0/static/js/main.510b0bc6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43cbd48b.css",
+    "static/js/main.510b0bc6.js"
+  ]
+}

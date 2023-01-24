@@ -11,9 +11,8 @@
   opacity: 0.9;
   font-weight: 700;
 }
-
 .links{
-  width: 30%;
+  width: 40%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -21,9 +20,16 @@
 .links a img{
   height: 4rem;
 }
-
-#contact{}
-#contact{}
+@media only screen and (max-width: 600px) {
+  #contact h1{
+    font-size: 1.4rem;
+  }
+  .links{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
 
 .tnc{
   display: flex;

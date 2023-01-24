@@ -12,27 +12,40 @@
 #home .info_co h2 {
   margin: 5px;
 }
-.name {
+.info_co .name {
   font-family: var(--accent-font);
   font-size: 5rem;
   color: var(--tone4);
   margin: 5px;
 }
-
-#quote-d {
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--tone1);
-  box-shadow: 0 0 10px 10px var(--tone1);
-  /* border-bottom: 1px solid black;
-      border-top: 1px solid black; */
+.info_co .name{
+  font-size: 5rem;
+}
+.info_co h2{
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 400px) {
+  #home .info_co {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    font-weight: 500;
+  }
+  .info_co .name{
+    font-size: 4.2rem;
+  }
+  .info_co h2{
+    font-size: 1.2rem;
+  }
 }
 #theme-btn {
   position: fixed;
   border: 4px solid var(--text-primary);
+  text-shadow: 10px black;
   top: 90%;
   left: 90%;
   z-index: 99;

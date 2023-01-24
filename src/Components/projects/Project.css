@@ -5,13 +5,16 @@
   display: flex;
   justify-content: space-between;
 }
+.rev.cards{
+  flex-direction: row-reverse;
+}
 .content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   width: 100%;
-  height: 60vh;
+  min-height: 60vh;
   margin: 30px;
 }
 .cards img{
@@ -37,6 +40,52 @@
   opacity: 0.75;
 } 
 
+@media only screen and (max-width: 600px) {
+  .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .rev.cards{
+    flex-direction: column;
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+  }
+  .cards img{
+    width: 100%;
+    margin: 30px;
+  }
+  .rev img{
+    width: 100%;
+    margin: 30px;
+  }
+  
+  .content h3{
+    font-size: 0.8rem;
+    opacity: 0.6;
+  } 
+  .content h1 {
+    margin: 10px 0 10px 0;
+    font-size: 1.8rem;
+  } 
+  .content p {
+    margin: 10px 0 10px 0;
+    text-align: justify;
+    opacity: 0.8;
+  } 
+  .content h2 {
+    font-size: 1.3rem;
+    opacity: 0.75;
+  } 
+}
 .features {
   width: 100%;
   padding: 10px 0;

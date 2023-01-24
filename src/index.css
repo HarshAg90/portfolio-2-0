@@ -65,11 +65,34 @@ section{
 }
 h1.title {
   font-size: 3rem;
+  text-align: center;
   font-family: 'Kalam', cursive;
   margin: 10px 0 20px 0 !important;
 }
 h3.title {
+  text-align: center;
   font-size: 1.3rem;
   opacity: 0.8;
   margin: 5px !important;
+}
+@media only screen and (max-width: 600px) {
+  h1.title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    margin: 10px 0 20px 0 !important;
+  }
+  h3.title {
+    text-align: center;
+    font-size: 1rem;
+    opacity: 0.8;
+    margin: 5px !important;
+  }
+
+}
+#tsparticles{
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }

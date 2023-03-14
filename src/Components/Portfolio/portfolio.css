@@ -1,5 +1,7 @@
-#portfolio{
-    padding: 20px 0 20px 0;
+#portfolio .head{
+    margin: 50px;
+}
+.p_content{
     display: flex;
     flex-direction: column;
     justify-content: center;

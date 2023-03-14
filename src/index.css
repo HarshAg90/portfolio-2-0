@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Zilla+Slab:ital@0;1&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
 @font-face {
   font-family: Westiva_reg;
   src: url(fonts/Westiva\ Regular.ttf);
@@ -15,7 +16,7 @@
   --tone2: #e9dac1;
   --tone3: #9ed2c6;
   --tone4: #54bab9;
-  --tone3_1: rgba(158, 210, 198, 0.597);
+  --tone3_1: rgba(158, 210, 198, 0.75);
   --primary-bg: white;
   --text-primary: black;
   /* --tone1: #F7ECDE;
@@ -23,7 +24,7 @@
     --tone3: #9ED2C6;
     --tone4: #54BAB9; */
   --accent-font: Westiva_reg, serif;
-  --heading-font: "Montserrat", sans-serif;
+  --heading-font: "ubuntu", sans-serif;
   --text-font: "Montserrat", sans-serif;
   transition: 100ms ease;
 }
@@ -64,14 +65,15 @@ section{
   min-height: 100vh;
 }
 h1.title {
-  font-size: 3rem;
-  text-align: center;
-  font-family: 'Kalam', cursive;
-  margin: 10px 0 20px 0 !important;
+  font-size: 2.5rem;
+  text-shadow: 0px 0px 10px var(--tone4);
+  text-align: start;
+  font-family: 'ubutu', cursive;
+  margin: 10px 0 30px 0 !important;
 }
 h3.title {
-  text-align: center;
-  font-size: 1.3rem;
+  text-align: start;
+  font-size: 1.5rem;
   opacity: 0.8;
   margin: 5px !important;
 }
@@ -79,12 +81,12 @@ h3.title {
   h1.title {
     font-size: 2rem;
     text-align: center;
-    font-family: 'Kalam', cursive;
-    margin: 10px 0 20px 0 !important;
+    font-family: 'ubuntu', cursive;
+    margin: 10px 0 30px 0 !important;
   }
   h3.title {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     opacity: 0.8;
     margin: 5px !important;
   }

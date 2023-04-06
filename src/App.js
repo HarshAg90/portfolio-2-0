@@ -9,8 +9,9 @@ import Contact from "./Components/contact/Contact";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-function App() {
 
+
+function App() {
   function Theme() {
     document.body.classList.toggle("light-body");
     document.body.classList.toggle("dark-body");
@@ -18,7 +19,7 @@ function App() {
   var options = {
     particles: {
       color: {
-        value: "#54bab9"
+        value: "#9ED2C6"
       },
       number: {
         value: 10,
@@ -138,7 +139,7 @@ const particlesLoaded = useCallback(async container => {
 }, []);
   
   return (
-    <div id="light-body">
+    <div id="dark-body">
       <Nav />
       <Particles
             id="tsparticles"

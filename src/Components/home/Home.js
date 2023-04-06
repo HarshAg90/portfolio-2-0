@@ -32,10 +32,12 @@ export default function Home({themeFn}) {
             <div className="info_co">
               <div className="greet_d">
                 <div className={showClass? "block":"disapear"}></div>
-                <h2 className="greet">{hellowords[currentWord]} I am</h2>
+                <h1 className="l1">{hellowords[currentWord]} I am</h1>
               </div>
-                <h1 className="name"  data-aos="fade-up">HARSH AGNIHOTRI</h1>
-                <h2 data-aos="fade-up">Software Dev trying to do meaningfull things</h2>
+                <h1 className="l2">Harsh Agnihotri</h1>
+                <h1 className='l3'>A FULL-STACK DEVELOPER</h1>
+                <h1 className='l4'>Building the web</h1>
+                <h1 className='l5'>One line of code at a time</h1>
             </div>
             <button onClick={themeFn} id="theme-btn">
               <div className="bg"></div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-2-0/static/css/main.ecd6cbbc.css",
-    "main.js": "/portfolio-2-0/static/js/main.09f18536.js",
+    "main.css": "/portfolio-2-0/static/css/main.c4fb9da3.css",
+    "main.js": "/portfolio-2-0/static/js/main.b2da3f2d.js",
     "static/media/stock_pic_store.png": "/portfolio-2-0/static/media/stock_pic_store.2eb48f45181c5a9233e8.png",
     "static/media/Westiva Regular.ttf": "/portfolio-2-0/static/media/Westiva Regular.3fcac888eba253bb3b1c.ttf",
     "static/media/hand_detection.png": "/portfolio-2-0/static/media/hand_detection.35ff4dbbf76380e45682.png",
@@ -12,11 +12,11 @@
     "static/media/linkedin.png": "/portfolio-2-0/static/media/linkedin.594ef44b37655cbcf7ac.png",
     "static/media/beatmaker.png": "/portfolio-2-0/static/media/beatmaker.fe0ba24238c063d27f52.png",
     "index.html": "/portfolio-2-0/index.html",
-    "main.ecd6cbbc.css.map": "/portfolio-2-0/static/css/main.ecd6cbbc.css.map",
-    "main.09f18536.js.map": "/portfolio-2-0/static/js/main.09f18536.js.map"
+    "main.c4fb9da3.css.map": "/portfolio-2-0/static/css/main.c4fb9da3.css.map",
+    "main.b2da3f2d.js.map": "/portfolio-2-0/static/js/main.b2da3f2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecd6cbbc.css",
-    "static/js/main.09f18536.js"
+    "static/css/main.c4fb9da3.css",
+    "static/js/main.b2da3f2d.js"
   ]
 }

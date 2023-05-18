@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--primary-bg);
+  background-color: var(--tone3_1);
 }
 #contact h2{
   font-size: 1.3rem;

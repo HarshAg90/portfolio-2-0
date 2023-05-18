@@ -13,6 +13,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --tone1: #f7ecde;
   --tone2: #e9dac1;
@@ -20,13 +23,14 @@
   --tone4: #54bab9;
   --tone3_1: rgba(158, 210, 198, 0.75);
   --primary-bg: #F7ECDE;
+  --primary-bg2: #fafafaa4;
   --text-primary: black;
   /* --tone1: #F7ECDE;
     --tone2: #E9DAC1;
     --tone3: #9ED2C6;
     --tone4: #54BAB9; */
-  --accent-font: Westiva_reg, serif;
-  --accent-font: "Poppins", sans-serif;
+    --accent-font: Westiva_reg, serif;
+    --accent-font: "Poppins", sans-serif;
   --heading-font: "ubuntu", sans-serif;
   --text-font: "Montserrat", sans-serif;
   transition: 100ms ease;
@@ -39,6 +43,7 @@
   --tone3_1: rgba(158, 210, 198, 0.597);
   --tone4: #54bab9;
   --primary-bg: #f7ecde;
+  --primary-bg2: #fafafa;
   --text-primary: black;
 }
 .dark-body {
@@ -53,6 +58,7 @@
   --tone3: #E2DCC8;
   --tone4: #F1F1F1; */
   --primary-bg: rgb(0, 0, 0);
+  --primary-bg2: rgba(20, 20, 20, 0.639);
   --text-primary: rgb(255, 255, 255);
 }
 
@@ -95,6 +101,13 @@ h3.title {
   }
 }
 #tsparticles {
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#tsparticles{
   z-index: -1;
   position: absolute;
   top: 0px;

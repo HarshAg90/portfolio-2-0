@@ -6,6 +6,7 @@ import Projects from "./Components/projects/Projects";
 import About from "./Components/about/About";
 import Portfolio from "./Components/Portfolio/portfolio";
 import Contact from "./Components/contact/Contact";
+import White_scr from "./Components/white_scr";
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
@@ -148,8 +149,10 @@ const particlesLoaded = useCallback(async container => {
             options={options}
         />
       <Home themeFn={Theme} />
-      <About />
-      <Edu_certi />
+      <White_scr>
+        <About />
+        <Edu_certi />
+      </White_scr>
       <Projects />
       <Portfolio/>
       <Contact/>

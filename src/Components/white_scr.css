@@ -1,0 +1,9 @@
+{
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    backgroundColor: '#fafafa',
+    borderRadius: 10,
+    padding: 5,
+}
